@@ -23,7 +23,7 @@ const SignUp = () => {
           </>
         ) : (
           <div>
-            <center><h3>Scribble Pad</h3></center>
+            <center><h3 ><Link to="/" className="name1">Scribble Pad</Link></h3></center>
             <Auth externalWallet={true} theme={"dark"} onLogin={onLogin} />
           </div>
         )}
